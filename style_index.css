@@ -13,12 +13,35 @@ body {
 }
 
 /* 2. TIPOGRAFIA GERAL */
-h1 { font-size: 40px; margin-bottom: 10px; }
-h2 { font-size: 32px; margin-bottom: 30px; }
-h3 { font-size: 18px; margin-bottom: 10px; }
-p { font-size: 16px; color: #515154; margin-bottom: 15px; }
-a { color: #0066cc; text-decoration: none; }
-a:hover { text-decoration: underline; }
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #515154;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 /* 3. CABEÇALHO E MENU (FIXO) */
 header {
@@ -95,7 +118,7 @@ section {
 }
 
 .sobre-foto img {
-     width: 100%;
+    width: 100%;
     border-radius: 24px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -117,14 +140,14 @@ section {
     gap: 20px;
     max-width: 1000px;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
 }
 
 .cartao-projeto {
     background-color: #fff;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     text-align: center;
 }
 
@@ -143,8 +166,8 @@ section {
 }
 
 #contato p {
-    color: #a1a1a6; 
-    margin-bottom: 40px; 
+    color: #a1a1a6;
+    margin-bottom: 40px;
 }
 
 .botoes-contato {
@@ -193,7 +216,7 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 12px;
-    border-top: 1px solid #333; 
+    border-top: 1px solid #333;
 }
 
 /* 8. RESPONSIVIDADE (CELULARES) */
@@ -219,7 +242,7 @@ footer {
     }
 
     .grelha-projetos {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
 
     .btn {
@@ -230,7 +253,7 @@ footer {
     }
 
     /*feito ajustes sobre mim*/
-    
+
     .sobre-container {
         flex-direction: column;
         text-align: center;

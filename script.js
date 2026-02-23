@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (
         hoje.getMonth() < nascimento.getMonth() ||
         (hoje.getMonth() === nascimento.getMonth() &&
-         hoje.getDate() < nascimento.getDate())
+            hoje.getDate() < nascimento.getDate())
     ) {
         idade--;
     }

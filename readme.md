@@ -30,6 +30,7 @@ Git e GitHub – Controle de versão
 
 📂 Estrutura do Repositório
 --------------------------------------
+```bash
 Portifolio/
 │
 ├── index.html        # Estrutura principal do site
@@ -38,6 +39,7 @@ Portifolio/
 ├── assets/           # Imagens, ícones e mídias
 │
 └── README.md         # Documentação do projeto
+```
 
 💻 Como Usar
 --------------------------------------

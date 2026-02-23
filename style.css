@@ -1,0 +1,212 @@
+/* =========================================
+   1. BASE E RESET
+========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #fbfbfd;
+    color: #1d1d1f;
+    line-height: 1.5;
+}
+
+/* =========================================
+   2. TIPOGRAFIA GERAL
+========================================= */
+h1 { font-size: 40px; margin-bottom: 10px; }
+h2 { font-size: 32px; margin-bottom: 30px; }
+h3 { font-size: 18px; margin-bottom: 10px; }
+p { font-size: 16px; color: #515154; margin-bottom: 15px; }
+a { color: #0066cc; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* =========================================
+   3. CABEÇALHO E MENU (FIXO)
+========================================= */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1d1d1f;
+    z-index: 100;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 20px;
+}
+
+nav .logo {
+    color: #fff;
+    font-weight: bold;
+}
+
+nav .menu-links a {
+    color: #fff;
+    margin-left: 20px;
+}
+
+/* =========================================
+   4. ESTRUTURA DAS SEÇÕES
+========================================= */
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#sobre-mim {
+    background-color: #ffffff;
+    padding-top: 120px; 
+}
+
+#sobre-mim p {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+#projetos {
+    background-color: #fbfbfd;
+}
+
+/* =========================================
+   5. GRID DE PROJETOS E CARTÕES
+========================================= */
+.grelha-projetos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.cartao-projeto {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.cartao-projeto img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* =========================================
+   6. CONTATO E BOTÕES
+========================================= */
+/* =========================================
+   6. CONTATO E BOTÕES (Estilo Apple)
+========================================= */
+#contato {
+    background-color: #1d1d1f;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#contato p {
+    color: #a1a1a6; 
+    margin-bottom: 40px; /* Dá um respiro maior antes de mostrar os botões */
+}
+
+/* Usamos Flexbox para gerenciar o alinhamento dos 4 botões */
+.botoes-contato {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Mantém um espaçamento exato e uniforme entre todos eles */
+    flex-wrap: wrap; /* Se a tela for pequena, ele joga os botões para a linha de baixo organizadamente */
+}
+
+/* O formato base dos botões */
+.btn {
+    display: inline-block;
+    padding: 14px 28px; /* Um pouco mais de espaço interno (estilo iOS) */
+    border-radius: 980px; /* O segredo do formato "pílula" perfeito da Apple */
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Prepara todas as animações para serem suaves */
+}
+
+/* Botão de destaque (WhatsApp e GitHub) */
+.btn-primario {
+    background-color: #ffffff;
+    color: #1d1d1f;
+}
+
+.btn-primario:hover {
+    background-color: #e8e8ed; /* Escurece o branco levemente */
+    transform: scale(0.98); /* O clique físico virtual: o botão "afunda" 2% */
+}
+
+/* Botão secundário (E-mail e LinkedIn) */
+.btn-secundario {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.btn-secundario:hover {
+    background-color: #ffffff; /* Preenche o botão */
+    color: #1d1d1f; /* Inverte a cor do texto para dar leitura */
+    transform: scale(0.98);
+}
+
+/* =========================================
+   7. RODAPÉ
+========================================= */
+footer {
+    background-color: #1d1d1f;
+    color: #515154;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    border-top: 1px solid #333; 
+}
+
+/* =========================================
+   8. RESPONSIVIDADE (CELULARES)
+========================================= */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav .logo {
+        margin-bottom: 10px;
+    }
+
+    nav .menu-links a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    .grelha-projetos {
+        grid-template-columns: 1fr; 
+    }
+
+    .btn {
+        display: block;
+        margin: 15px auto;
+        width: 100%;
+        max-width: 250px;
+    }
+}

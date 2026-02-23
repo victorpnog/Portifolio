@@ -35,14 +35,19 @@ Git e GitHub – Controle de versão
 📂 Estrutura do Repositório
 --------------------------------------
 ```bash
-Portifolio/
+Portfolio/
 │
-├── index.html              # Estrutura principal do site
-├── style_index.css         # Estilos e responsividade do index.html
-├── construcao.html         # Estrutura das partes não desenvolvidas
-├── style_consturcao.css    # Estilos e responsividade do construcao.html
-├── script.js               # Funcionalidades em JavaScript
-├── assets/                 # Imagens, ícones e mídias
+├── index.html              # Página principal
+├── construcao.html         # Página "Em Construção"
+│
+├── css/
+│   ├── style.css           # Estilos globais
+│   └── construcao.css      # Estilos da página de construção
+│
+├── js/
+│   └── script.js           # Funcionalidades JavaScript
+│
+├── assets/                 # Imagens
 │
 └── README.md               # Documentação do projeto
 ```

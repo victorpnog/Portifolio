@@ -32,15 +32,16 @@ Git e GitHub – Controle de versão
 --------------------------------------
 Portifolio/
 │
-├── index.html          ← Estrutura principal do site
-├── style.css           ← Estilos e responsividade
-├── script.js           ← Funcionalidades em JavaScript
-├── assets/             ← Imagens, ícones e mídias 
-└── README.md           ← Documentação do projeto
+├── index.html        # Estrutura principal do site
+├── style.css         # Estilos e responsividade
+├── script.js         # Funcionalidades em JavaScript
+├── assets/           # Imagens, ícones e mídias
+│
+└── README.md         # Documentação do projeto
 
 💻 Como Usar
 --------------------------------------
-Acesse o link: git co
+Acesse o link: [git co](https://victorpnog.github.io/Portifolio/)
 
 🔍 Destaques
 --------------------------------------

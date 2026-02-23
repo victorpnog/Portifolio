@@ -161,6 +161,7 @@ footer {
     header nav {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     nav .logo {

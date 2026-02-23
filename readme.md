@@ -2,6 +2,10 @@
 --------------------------------------
 Portfólio pessoal desenvolvido com HTML, CSS e JavaScript para apresentar minhas habilidades, projetos e experiência de forma clara, responsiva e visualmente agradável.
 
+💻 Como Usar
+--------------------------------------
+Acesse o link: [git co](https://victorpnog.github.io/Portifolio/)
+
 💡 Sobre o Projeto
 --------------------------------------
 Este projeto é meu portfólio online, criado para mostrar minhas competências em desenvolvimento front-end básico, destacando:
@@ -42,10 +46,6 @@ Portifolio/
 │
 └── README.md               # Documentação do projeto
 ```
-
-💻 Como Usar
---------------------------------------
-Acesse o link: [git co](https://victorpnog.github.io/Portifolio/)
 
 🔍 Destaques
 --------------------------------------

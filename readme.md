@@ -33,12 +33,14 @@ Git e GitHub – Controle de versão
 ```bash
 Portifolio/
 │
-├── index.html        # Estrutura principal do site
-├── style.css         # Estilos e responsividade
-├── script.js         # Funcionalidades em JavaScript
-├── assets/           # Imagens, ícones e mídias
+├── index.html              # Estrutura principal do site
+├── style_index.css         # Estilos e responsividade do index.html
+├── construcao.html         # Estrutura das partes não desenvolvidas
+├── style_consturcao.css    # Estilos e responsividade do construcao.html
+├── script.js               # Funcionalidades em JavaScript
+├── assets/                 # Imagens, ícones e mídias
 │
-└── README.md         # Documentação do projeto
+└── README.md               # Documentação do projeto
 ```
 
 💻 Como Usar
